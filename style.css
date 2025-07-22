@@ -1,0 +1,228 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+
+.cabecalho {
+    background-color: #18153d;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #00f5d0;
+    text-align: center;
+    font-size: 24px;
+    line-height: 34px;   
+
+}
+
+table {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+    /*max-width: 300px;*/
+    margin-top: 10px;
+    margin-bottom: 45px;
+    align-self: center;
+    font-size: 42px;
+}
+
+th {
+    color: #ffffff;
+}
+
+td {
+    font-size: 15px;
+}
+
+th, td {
+    padding: 20px;
+}
+
+.logo-img {
+   
+    width: 210px;
+    max-width: 100%;
+    height: auto;
+    border-bottom-style: none;
+    border-color: #000000;
+    border-left-style: none;
+    border-radius: 0px;
+    border-right-style: none;
+    border-top-style: none;
+    border-width: 1px;
+    margin-top: 50px;
+}
+
+.cursos {
+    background-color: #262261;
+    display: flex;
+     justify-content: center;
+}
+
+.imagens {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    padding: 50px;
+    max-width: 1000px;
+}
+
+.img {
+    height: 300px;
+    width: 200px;
+    object-fit: cover;
+}
+
+.preco {
+    background-color: #096357;
+    width: 200px;
+    color: #ffffff;
+    font-family: Ubuntu, sans-serif;
+    font-size: 24px;
+    line-height: 34px;
+    text-align: center;
+    height: 60px;
+    align-items: center;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.preco-1 {
+    background-color: #5c61ff;
+    width: 200px;
+    color: #ffffff;
+    font-family: Ubuntu, sans-serif;
+    font-size: 24px;
+    line-height: 34px;
+    text-align: center;
+    height: 60px;
+    align-items: center;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.preco-2 {
+    background-color: #b5453f;
+    width: 200px;
+    color: #ffffff;
+    font-family: Ubuntu, sans-serif;
+    font-size: 24px;
+    line-height: 34px;
+    text-align: center;
+    height: 60px;
+    align-items: center;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.preco-3 {
+    background-color: #793bc4;
+    width: 200px;
+    color: #ffffff;
+    font-family: Ubuntu, sans-serif;
+    font-size: 24px;
+    line-height: 34px;
+    text-align: center;
+    height: 60px;
+    align-items: center;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.preco-4 {
+    background-color: #c6b077;
+    width: 200px;
+    color: #ffffff;
+    font-family: Ubuntu, sans-serif;
+    font-size: 24px;
+    line-height: 34px;
+    text-align: center;
+    height: 60px;
+    align-items: center;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.promo {
+    display: flex;
+    height: 215px;
+    background-color: #18153d;
+    color: #00f5d0;
+    font-size: 24px;
+    line-height: 34px;
+    text-align: center;
+    align-items: center;
+}
+
+.texto {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 750px;
+}
+
+.contato {
+    background-color: #1f1f1f;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.texto-contato {
+    max-width: 342px;
+}
+
+.duvida {
+    font-size: 30px;
+    color: #ffffff;
+    line-height: 43px;
+    font-weight: 1000;
+}
+
+.matri {
+    text-align: center;
+    font-size: 21px;
+    color: #ffffff;
+    line-height: 30px;
+    padding: 20px;
+}
+
+.whats {
+    text-align: center;
+    background-color: #10a349;
+    font-family: Ubuntu, sans-serif;
+    font-size: 24px;
+    line-height: 34px;
+    color:#ffffff;
+    font-weight: 600;
+    padding: 10px;
+}
+
+footer {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;      
+    background-color: #121212;
+}
+
+.logo-footer {
+    width: 120px;
+    max-width: 100%;
+}
+
+.texto-footer {   
+    color: #ffffff;
+    max-width: 400px;
+    padding: 40px;
+    margin-left: 175px;
+    text-align: center;
+}
